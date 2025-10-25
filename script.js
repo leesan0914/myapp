@@ -240,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // ▼▼▼ 이 코드를 추가하세요 ▼▼▼
   // ====== 복사 방지 기능 ======
   // 마우스 우클릭 방지
-  /*document.addEventListener('contextmenu', (e) => {
+  document.addEventListener('contextmenu', (e) => {
     e.preventDefault();
   });
   
@@ -250,6 +250,6 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       alert('이 페이지의 내용은 복사할 수 없습니다.');
     }
-  }); */
+  });
 
 }); // DOMContentLoaded 이벤트 리스너의 닫는 부분
