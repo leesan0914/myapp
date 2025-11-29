@@ -24,6 +24,7 @@ const db = mysql.createConnection({
   database: 'myappdb'
 });
 
+
 db.connect(err => {
   if (err) {
     console.error('데이터베이스 연결 오류:', err);
